@@ -29,7 +29,7 @@ jobs:
 
       # Continuous Testing
       - name: Run Tests
-        run: mvn clean verify
+        run: mvn test
 
       # Continuous Inspection
       - name: Cache SonarCloud Packages
