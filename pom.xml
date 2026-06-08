@@ -24,6 +24,24 @@
      <maven.compiler.source>1.8</maven.compiler.source>
      <maven.compiler.target>1.8</maven.compiler.target>
  </properties>
+
+<build>
+  <plugins>
+    <plugin>
+      <groupId>org.sonarsource.scanner.maven</groupId>
+      <artifactId>sonar-maven-plugin</artifactId>
+      <version>4.0.0.4121</version>
+    </plugin>
+  </plugins>
+</build>
+
+<properties>
+  <maven.compiler.source>1.8</maven.compiler.source>
+  <maven.compiler.target>1.8</maven.compiler.target>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.organization>syharipf</sonar.organization>
+  <sonar.projectKey>103022300094_Syarif_Praktek_MKEPL</sonar.projectKey>
+</properties>
   
 </project>
 
